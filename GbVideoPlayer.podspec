@@ -1,42 +1,16 @@
-#
-# Be sure to run `pod lib lint GbVideoPlayer.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'GbVideoPlayer'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GbVideoPlayer.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.version          = '1.0.1'
+  s.summary          = 'Component for live audio commentaries.'
   s.homepage         = 'https://github.com/37006058/GbVideoPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '37006058' => 'Admin' }
-  s.source           = { :git => 'https://github.com/37006058/GbVideoPlayer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'Admin' => 'Admin' }
+  s.source           = { :git => 'https://github.com/37006058/GbVideoPlayer.git', :tag => "1.0.1" }
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'GbVideoPlayer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'GbVideoPlayer' => ['GbVideoPlayer/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resource_bundles = {
+    'GbVideoPlayer' => ['GbVideoPlayer/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  }
 end

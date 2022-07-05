@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.author           = { 'Admin' => 'Admin' }
   s.source           = { :git => 'https://github.com/alvitres01/gb_vision_player_ios.git', :tag => "1.0.1" }
   s.ios.deployment_target = '10.0'
-  s.source_files = 'GbVideoPLayer/Classes/**/*'
+  s.swift_version = '5.0'
+  s.source_files = 'Player/**/*.swift'
 end

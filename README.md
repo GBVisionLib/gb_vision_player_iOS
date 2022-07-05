@@ -3,7 +3,7 @@
 component for live audio commentaries
 
 
-<img src="captures/screen1.png" width="40%" /> <img src="captures/screen2.png" width="40%" />
+<img src="screen1.png" width="40%" /> <img src="screen2.png" width="40%" />
 
 
 [![Version](https://img.shields.io/cocoapods/v/GbVideoPlayer.svg?style=flat)](https://cocoapods.org/pods/GbVideoPlayer)

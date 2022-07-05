@@ -1,0 +1,16 @@
+PODS:
+  - GbVideoPlayer (0.1.0)
+
+DEPENDENCIES:
+  - GbVideoPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  GbVideoPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GbVideoPlayer: e1f2a477ef7fd8b556d2ffe6fa900a4193b44f26
+
+PODFILE CHECKSUM: 3e4300c3b51ae610d6bdf9a789d2933c2f2b3dc4
+
+COCOAPODS: 1.11.3

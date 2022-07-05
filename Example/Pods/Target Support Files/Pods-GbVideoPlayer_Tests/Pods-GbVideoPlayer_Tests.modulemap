@@ -1,0 +1,6 @@
+framework module Pods_GbVideoPlayer_Tests {
+  umbrella header "Pods-GbVideoPlayer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

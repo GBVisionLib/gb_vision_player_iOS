@@ -1,0 +1,6 @@
+framework module GbVideoPlayer {
+  umbrella header "GbVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

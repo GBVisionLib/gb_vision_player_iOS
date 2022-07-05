@@ -17,8 +17,9 @@ pod 'GbVideoPlayer'
 ```
 
 
-Add `GbVideoPlayer` to your `podfile` and run pod install
-Add a `GbVideoPlayerView` to your `UIViewController` either programmatically or using storyboards.
+1. Add `GbVideoPlayer` to your `podfile` and run pod install
+2. Add a `GbVideoPlayerView` to your `UIViewController` either programmatically or using storyboards.
+
 
 
 ## License

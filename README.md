@@ -7,7 +7,6 @@ component for live audio commentaries
 
 
 [![Version](https://img.shields.io/cocoapods/v/GbVideoPlayer.svg?style=flat)](https://cocoapods.org/pods/GbVideoPlayer)
-[![License](https://img.shields.io/cocoapods/l/GbVideoPlayer.svg?style=flat)](https://cocoapods.org/pods/GbVideoPlayer)
 [![Platform](https://img.shields.io/cocoapods/p/GbVideoPlayer.svg?style=flat)](https://cocoapods.org/pods/GbVideoPlayer)
 
 ## Installation

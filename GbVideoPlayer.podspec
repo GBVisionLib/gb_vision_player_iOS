@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Admin' => 'Admin' }
-  s.source           = { :git => 'https://github.com/37006058/GbVideoPlayer.git', :tag => "1.0.1" }
+  s.source           = { :git => 'https://github.com/alvitres01/gb_vision_player_ios.git', :tag => "1.0.1" }
   s.ios.deployment_target = '10.0'
-  s.source_files = 'GbVideoPLayer/Player/*.swift'
+  s.source_files = 'GbVideoPLayer/Classes/**/*'
 end

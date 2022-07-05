@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8430861B28746AA700131EB2 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430861928746AA700131EB2 /* screen1.png */; };
+		8430861C28746AA700131EB2 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8430861A28746AA700131EB2 /* screen2.png */; };
 		B2C9702A3156F531EE1F4AC6 /* Pods_GbVideoPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD61025D2F6CBA0AA6E8D5F /* Pods_GbVideoPlayer_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		621A26EE091E0AC01E9F620E /* Pods_GbVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GbVideoPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8430861928746AA700131EB2 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		8430861A28746AA700131EB2 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 		869ED893EF21E540CBEC4206 /* Pods-GbVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GbVideoPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-GbVideoPlayer_Example/Pods-GbVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9E737ED36638E95A99D0166D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DBDA53D85712158D6CF04681 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				8430861928746AA700131EB2 /* screen1.png */,
+				8430861A28746AA700131EB2 /* screen2.png */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for GbVideoPlayer */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -245,6 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8430861C28746AA700131EB2 /* screen2.png in Resources */,
+				8430861B28746AA700131EB2 /* screen1.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

@@ -10,6 +10,12 @@ import AVKit
 
 @IBDesignable
 public class GbVideoPlayerView: UIView {
+    
+    @IBInspectable public var url : String? = "https://livesportradio.com/global/livescore/playlist.m3u8"
+    @IBInspectable public var gbTitleOff : String? = "Play audio commentary"
+    @IBInspectable public var gbTitleOn : String? = "Stop audio commentary"
+    @IBInspectable public var gbTextColor : UIColor? = .white
+    @IBInspectable public var gbBackgroundColor : UIColor? = UIColor(red: 229/255, green: 70/255, blue: 68/255, alpha: 1)
 
     private var player : AVPlayer!
     private var isPlaying = true
@@ -32,7 +38,7 @@ public class GbVideoPlayerView: UIView {
         let viewHeight : CGFloat = 50
         
         let view = UIView(frame: CGRect(x: frame.width/2 - viewWidth/2, y: frame.height/2 - viewHeight/2, width: viewWidth, height: viewHeight))
-        view.backgroundColor = UIColor(red: 229/255, green: 70/255, blue: 68/255, alpha: 1)
+        view.backgroundColor = gbBackgroundColor!
         view.layer.cornerRadius = 12
         
         imageView = UIImageView(frame: CGRect(x: 15, y: 10, width: 30, height: 30))
@@ -47,8 +53,8 @@ public class GbVideoPlayerView: UIView {
        
         
         label = UILabel(frame: CGRect(x: 55, y: 10, width: 190, height: 30))
-        label.text = "Stop audio commentary"
-        label.textColor = .white
+        label.text = gbTitleOn
+        label.textColor = gbTextColor!
         
         view.addSubview(label)
         view.addSubview(imageView)
@@ -58,8 +64,8 @@ public class GbVideoPlayerView: UIView {
     
     
     fileprivate func initPlayer(){
-        let url = "https://livesportradio.com/global/livescore/playlist.m3u8"
-        let asset = AVAsset(url: URL(string: url)!)
+      
+        let asset = AVAsset(url: URL(string: url!)!)
         let playerItem = AVPlayerItem(asset: asset)
         
         player = AVPlayer(playerItem: playerItem)
@@ -77,14 +83,14 @@ public class GbVideoPlayerView: UIView {
         isPlaying.toggle()
         if isPlaying{
             player.play()
-            label.text = "Stop audio commentary"
+            label.text = gbTitleOn
             let image = UIImage(named: "ic_pause", in: Bundle(for: type(of: self)), compatibleWith: .none)
             if let image = image {
                 imageView.image = image
             }
         }else{
             player.pause()
-            label.text = "Play audio commentary"
+            label.text = gbTitleOff
             let image = UIImage(named: "ic_play", in: Bundle(for: type(of: self)), compatibleWith: .none)
             if let image = image {
                 imageView.image = image
